@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    height: 713px;
+    margin: auto;
+}
+.main-nav{
+    display: flex;
+    margin-top: 43px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+}
+.nav-items{
+    margin-right: 20px;
+}
+.nav-items a{
+    color: #fff;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 13px;
+}
+.nav-items a:hover {
+    border-top: 2px solid #6bff3d;
+    border-bottom: 2px solid #6bff3d;
+    color: #6bff3d;
+}
+.active {
+    border-top: 2px solid #6bff3d;
+    border-bottom: 2px solid #6bff3d;
+    color: #6bff3d !important; 
+    padding: 15px 0;
+}
+.phone {
+    color: #fff;
+    margin-left: auto;
+}
+.offer {
+    display: flex;
+    
+    margin-top: 159px;
+}
+
+.describe h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 37px;
+    margin: 0;
+    padding: 0;
+}
+.describe p{
+    color: #fff;
+    font-weight: 200;   
+    font-size: 16px;
+    word-spacing: 2px;
+    margin-top: 19px;
+}
+.call {
+    display: block;
+    margin-top: 35px;
+    padding: 17px;
+    width: 220px;
+    text-align: center;
+    background-color: #faf04b;
+    color: #000;
+    font-size: 14px;
+    font-weight: 900;
+    transition: all 0.5s;
+}
+.call:hover {
+    background-color: #d4cd41;
+}
+.image{
+    background-image: url('img/poly.png');
+    width: 380px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: 82px;
+}
